@@ -11,6 +11,7 @@ namespace GraphQl.Samples.Controllers
     [RoutePrefix("api/graphql")]
     public class StarWarsController : ApiController
     {
+      
         /// <summary>
         /// Query the system using graphql queries.
         /// </summary>

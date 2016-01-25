@@ -94,6 +94,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="GraphQl\Domains\StarWars\GraphTypes\HelloType.cs" />
+    <Compile Include="GraphQl\Domains\StarWars\Models\Hello.cs" />
     <Compile Include="GraphQl\Domains\StarWars\StarWarsQuery.cs" />
     <Compile Include="GraphQl\GraphQlSchema.cs" />
     <Compile Include="GraphQl\MainQuery.cs" />
@@ -111,8 +113,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="GraphQl\Domains\StarWars\GraphTypes\" />
-    <Folder Include="GraphQl\Domains\StarWars\Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
